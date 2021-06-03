@@ -12,8 +12,7 @@ with open(csvpath, newline ='') as csvfile:
     print("Analyzing")
     print("---------------------------")
     
-    #Counter for the total of the months
-    #This code works
+    #the total of the months
     header = next(csvreader)
     
     #variables
@@ -39,6 +38,4 @@ with open(csvpath, newline ='') as csvfile:
                 Lossdate = str(row[0])
 average = total / count #average profit over x months
 print (total)
-
-
     
